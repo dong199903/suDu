@@ -43,7 +43,7 @@ void  Sudu_Construct::getSudu()
 				if (b)
 					next_permutation(port + 7, port + 9);
 				int t = 0;
-				char kong = ' ';
+				//char kong = ' ';
 				do {
 					if (t)
 						next_permutation(str + 2, str + 9);
@@ -56,18 +56,20 @@ void  Sudu_Construct::getSudu()
 								temp = j - port[i];
 							else
 								temp = j - port[i] + 9;
-							putchar(str[temp % 9]);
+							//putchar(str[temp % 9]);
+							cout << str[temp % 9];
 							if (j < 9)
-								putchar(kong);
+								//putchar(' ');
+								cout << " ";
 						}
-						putchar('\n');
+						cout << endl;
 					}
 					count++;
 					t++;
 					if (count == this->count)
 						break;
 					else
-						putchar('\n');
+						cout << endl;
 				} while (t<40320);
 				if (count == this->count)
 					break;

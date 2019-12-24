@@ -18,12 +18,18 @@
     <ClInclude Include="Sudu_Construct.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Sudu_Deal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Susu_Construct.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Sudu_Deal.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

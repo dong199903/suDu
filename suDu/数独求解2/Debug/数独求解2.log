@@ -1,10 +1,15 @@
 ﻿  Susu_Construct.cpp
-g:\c++\数独求解2\数独求解2\susu_construct.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-g:\c++\数独求解2\数独求解2\sudu_construct.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\董泽平\desktop\新建文件夹\sudu\sudu\数独求解2\susu_construct.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\董泽平\desktop\新建文件夹\sudu\sudu\数独求解2\sudu_construct.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Sudu_Deal.cpp
+c:\users\董泽平\desktop\新建文件夹\sudu\sudu\数独求解2\sudu_deal.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\董泽平\desktop\新建文件夹\sudu\sudu\数独求解2\sudu_deal.cpp(11): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+c:\users\董泽平\desktop\新建文件夹\sudu\sudu\数独求解2\sudu_deal.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
   main.cpp
-g:\c++\数独求解2\数独求解2\main.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-g:\c++\数独求解2\数独求解2\sudu_construct.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-g:\c++\数独求解2\数独求解2\main.cpp(23): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\董泽平\desktop\新建文件夹\sudu\sudu\数独求解2\main.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\董泽平\desktop\新建文件夹\sudu\sudu\数独求解2\sudu_construct.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\董泽平\desktop\新建文件夹\sudu\sudu\数独求解2\sudu_deal.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\董泽平\desktop\新建文件夹\sudu\sudu\数独求解2\main.cpp(25): warning C4018: “<”: 有符号/无符号不匹配
   正在生成代码...
-  数独求解2.vcxproj -> G:\C++\数独求解2\Debug\数独求解2.exe
-  数独求解2.vcxproj -> G:\C++\数独求解2\Debug\数独求解2.pdb (Full PDB)
+  数独求解2.vcxproj -> C:\Users\董泽平\Desktop\新建文件夹\suDu\suDu\Debug\数独求解2.exe
+  数独求解2.vcxproj -> C:\Users\董泽平\Desktop\新建文件夹\suDu\suDu\Debug\数独求解2.pdb (Full PDB)
