@@ -43,7 +43,7 @@ void main(int argc, char* argv[])
 	{
 		suDel = new Sudu_Deal();
 		freopen_s(&stream, argv[2], "r", stdin);
-		freopen_s(&stream, "solvedsudoku.txt", "w", stdout);
+		freopen_s(&stream, argv[2], "w", stdout);
 		int final = 0;
 		while (~scanf_s("%d", &suDel->data[1][1]))
 		{
