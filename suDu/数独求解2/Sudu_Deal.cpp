@@ -95,27 +95,27 @@ int Sudu_Deal::find(int x, int y)
 	{
 		for (int n1 = 1; n1 <= 9; n1++)
 		{
-			int slogan = 1;
+			int temp = 1;
 			for (int i = 1; i <= 9; i++)//看列有没有
 			{
 				if (this->data[i][y] == n1)
 				{
-					slogan = 0;
+					temp = 0;
 					break;
 				}
 			}
-			if (slogan)//看行有没有
+			if (temp)//看行有没有
 			{
 				for (int j = 1; j <= 9; j++)
 				{
 					if (this->data[x][j] == n1)
 					{
-						slogan = 0;
+						temp = 0;
 						break;
 					}
 				}
 			}
-			if (slogan)//行和列都没有的话看小矩阵有没有
+			if (temp)//行和列都没有的话看小矩阵有没有
 			{
 				int rawtop, columntop;
 				if (x % 3 == 0)
@@ -132,15 +132,15 @@ int Sudu_Deal::find(int x, int y)
 					{
 						if (this->data[i][j] == n1)
 						{
-							slogan = 0;
+							temp = 0;
 							break;
 						}
 					}
-					if (!slogan)
+					if (!temp)
 						break;
 				}
 			}
-			if (slogan)//判断过后看1-9放哪一个
+			if (temp)//判断过后看1-9放哪一个
 			{
 				this->data[x][y] = n1;
 				if (y < 9)
